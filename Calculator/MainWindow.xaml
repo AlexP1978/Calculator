@@ -5,8 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calculator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        Title="MainWindow" Height="408.928" Width="460.714">
+    <Grid x:Name="LayoutRoot" Background="White" HorizontalAlignment="Left" Width="445" Margin="0,0,0,11">
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="36" Margin="66,26,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="316"/>
+        <Button x:Name="button1" Content="1" HorizontalAlignment="Left" Margin="66,103,0,0" VerticalAlignment="Top" Width="46" Height="40"/>
+        <Button x:Name="button2" Content="2" HorizontalAlignment="Left" Margin="144,103,0,0" VerticalAlignment="Top" Width="46" Height="40"/>
+        <Button x:Name="button3" Content="3" HorizontalAlignment="Left" Margin="226,103,0,0" VerticalAlignment="Top" Width="46" Height="40" RenderTransformOrigin="-0.387,0.614"/>
+        <Button x:Name="button4" Content="4" HorizontalAlignment="Left" Margin="66,169,0,0" VerticalAlignment="Top" Width="46" Height="40"/>
+        <Button x:Name="button5" Content="5" HorizontalAlignment="Left" Margin="144,169,0,0" VerticalAlignment="Top" Width="46" Height="40"/>
+        <Button x:Name="button6" Content="6" HorizontalAlignment="Left" Margin="226,169,0,0" VerticalAlignment="Top" Width="46" Height="40" RenderTransformOrigin="-0.387,0.614"/>
+        <Button x:Name="button7" Content="7" HorizontalAlignment="Left" Margin="66,239,0,0" VerticalAlignment="Top" Width="46" Height="40"/>
+        <Button x:Name="button8" Content="8" HorizontalAlignment="Left" Margin="144,239,0,0" VerticalAlignment="Top" Width="46" Height="40"/>
+        <Button x:Name="button9" Content="9" HorizontalAlignment="Left" Margin="226,239,0,0" VerticalAlignment="Top" Width="46" Height="40" RenderTransformOrigin="-0.387,0.614"/>
+        <Button x:Name="button0" Content="0" HorizontalAlignment="Left" Margin="144,309,0,0" VerticalAlignment="Top" Width="46" Height="40" RenderTransformOrigin="-0.387,0.614"/>
+        <Button x:Name="button_equally" Content="=" HorizontalAlignment="Left" Margin="308,309,0,0" VerticalAlignment="Top" Width="74" Height="40"/>
+        <Button x:Name="button_multiplay" Content="*" HorizontalAlignment="Left" Margin="226,309,0,0" VerticalAlignment="Top" Width="46" RenderTransformOrigin="0.767,0.487" Height="40"/>
+        <Button x:Name="button_clear" Content="C" HorizontalAlignment="Left" Margin="308,103,0,0" VerticalAlignment="Top" Width="74" Height="40"/>
+        <Button x:Name="button_plus" Content="+" HorizontalAlignment="Left" Margin="308,169,0,0" VerticalAlignment="Top" Width="74" Height="40"/>
+        <Button x:Name="button_minus" Content="-" HorizontalAlignment="Left" Margin="308,239,0,0" VerticalAlignment="Top" Width="74" Height="40" RenderTransformOrigin="0.538,4.275"/>
+        <Button x:Name="button_devision" Content="/" HorizontalAlignment="Left" Margin="66,309,0,0" VerticalAlignment="Top" Width="46" RenderTransformOrigin="0.686,0.406" Height="40"/>
     </Grid>
 </Window>
